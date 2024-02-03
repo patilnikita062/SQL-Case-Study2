@@ -1,6 +1,8 @@
 # SQL-Case-Study2
 
+
 Query writing:
+
 
 C:\Users\patil>cd\
 
