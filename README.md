@@ -13,7 +13,7 @@ C:\xampp\mysql\bin>mysql -h localhost -u root
 MariaDB [(none)]> use college;
 
 
-Create Tables and Insert values:
+Create Table and Insert values:
 ----------------------------------------------------
 
 create table employeedate(employee_id int AUTO_INCREMENT = 100, first_name
