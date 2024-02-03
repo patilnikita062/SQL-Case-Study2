@@ -37,22 +37,28 @@ Haan','515.123.4569','1987-06- 19','AD_VP',17000.00,100,90),('Alexander','Hunold
 
 Q.1) Write a query to display the names (first_name, last_name) using alias name "First
 Name", "Last Name".
+
 Query: select first_name as First Name , last_name as Last Name from employeedata;
 
 Q.2)Write a query to get unique department ID from employee table.
+
 Query: select distinct(department_id) from eployeedata;
 
 Q.3)Write a query to get all employee details from the employee table order by first name, descending.
+
 Query: select * from employeedata order by first_name desc;
 
 Q.4)Write a query to get the employee ID, names (first_name, last_name), salary in
 ascending order of salary.
+
 Query: select employee_id, concat(first_name, ' ',last_name) as Name, salary from employeedata order by salary;
 
 Q.5)Write a query to get the maximum and minimum salary from employees table.
+
 Query: select Max(salary) as Max_Salary, min(salary) as Min_Salary from employeedata;
 
 Q.6)Write a query to get the first 3 characters of first name from employees table.
+
 Query: select substring(first_name,1,3) as 'First_3_char'from employeedata;
 
 Q.7)Write a query to display the name (first_name, last_name) and department ID of all
