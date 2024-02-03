@@ -2,7 +2,7 @@
 
 
 Query writing:
-
+------------------------------------------------
 
 C:\Users\patil>cd\
 
@@ -14,6 +14,7 @@ MariaDB [(none)]> use college;
 
 
 Create Tables and Insert values:
+----------------------------------------------------
 
 create table employeedate(employee_id int AUTO_INCREMENT = 100, first_name
 varchar(50), last_name varchar(50), phone_number varchar(50), hire_date date, job_id
